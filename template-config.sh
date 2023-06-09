@@ -1,1 +1,5 @@
-echo "template-config"
+curl -s -o .vscode/settings.json --create-dirs "https://github.com/ymkz/template-config/blob/main/.vscode/settings.json"
+curl -s -O "https://github.com/ymkz/template-config/blob/main/.editorconfig"
+curl -s -O "https://github.com/ymkz/template-config/blob/main/.prettierignore"
+curl -s -O "https://github.com/ymkz/template-config/blob/main/.prettierrc.cjs"
+curl -s -O "https://github.com/ymkz/template-config/blob/main/tsconfig.json"
